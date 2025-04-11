@@ -1,6 +1,6 @@
 
 
-import java.util.*;
+
 
 public class ArrayCC {
     public static void printSubrrays(int numbers[]){
@@ -19,7 +19,7 @@ public class ArrayCC {
     }
 
     public static void main( String[] args){
-        int numbers[]= { 2 ,4 ,6 ,8, 10,12,14,18,20,22};
+        int numbers[]= {2,4,6,8,10,12,14,16,18,20};
         System.out.println(numbers);
         printSubrrays(numbers);
 
