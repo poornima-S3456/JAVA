@@ -58,13 +58,13 @@ public static void countvowel( String str){
     public static void main( String args[]){
 
         String str1 = "poornima";
-       // String str2 = " rashika";
-       // findequal( str1,str2);
-       //findequal(str1, str2);
+       String str2 = " rashika";
+       findequal( str1,str2);
+       findequal(str1, str2);
       
-     // System.out.println( palindrom(str1));
-      // String str = " poornima";
-     //  comparechar( str);
+     System.out.println( palindrom(str1));
+      String str = " poornima";
+      comparechar( str);
       countvowel(str1);
 
 
