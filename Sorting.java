@@ -21,10 +21,15 @@ public class Sorting {
     }
 
 
+
+
+  
+
+
     public static void main( String args[]){
 
         int arr[]= {9,5,2,1,7,3};
-        BubbleSort( arr);
+      BubbleSort ( arr);
         Arrprint(arr);
     }
     

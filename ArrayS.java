@@ -1,21 +1,66 @@
 public class ArrayS {
-    public static void main( String args[]){
-        
-        // //int[]  sum = { 2,4,6 ,8,10};
-        // int sum=0; 
-        // for( int i=0;i<arr1.length;i++){
-            
-        //    sum = sum+ arr1[i]+ arr2[1];
-        // }
-        //    System.out.println( sum);
-    // int[]sum= new int[ arr1.length];
-    // for( int i=0; i<arr1.length;i++){
 
-    //     sum[i] = arr1[i]+arr2[i];
-    // } 
-    // for( int i=0; i<5; i++){
-    //     System.out.println( sum[i]);
+  public static void NaturalNo( int num){//code1
+  for( int i=0;i< num;i++){
 
-  int [][] arr = { { 1,2,3,4,5}{ 1,2,3,4,5,}};
+   
+    System.out.println(i);
+  }
+
+ 
+
+
+  }
+
+  public static void ReverseNo( int n){   //code2
+
+    for( int i=n;i>0;i--){
+      System.out.println( i);
     }
+  }
+
+
+  public static void Evenodd( int n ){  //3
+
+    for( int i=0;i<n;i++){
+      if( i%2==0){
+        System.out.println( "even");
+      }
+      else{ 
+        System.out.println( "odd");
+      }
+
+    }
+    
+  }
+  
+
+  public static void Sumof(int n){
+
+    int sum=0;
+    for(int i=0;i<=n;i++) {
+      sum=sum+i;
+    }
+    System.out.println(sum );
+  }
+
+  public static void Productof( int num){
+      int product = 1;
+    for( int i=0;i<=num;i++){
+      product = product*i;
+
+    }
+    System.out.println( product);
+  }
+
+
+  public static void main( String args[]){
+
+
+    // NaturalNo( 10);
+    // ReverseNo( 12);
+    // Evenodd( 8);
+    // Sumof(4);
+    Productof( 4);
+}
 }
