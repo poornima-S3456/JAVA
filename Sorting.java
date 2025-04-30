@@ -1,21 +1,20 @@
 public class Sorting {
-    public static void BubbleSort( int arr[]){
-
-        for( int turn = 0; turn<arr.length-1;turn++){
-            for( int j=0;j<arr.length-1-turn;j++){
-                if( arr[j]> arr[j+1]){
-                    int temp = arr[j];
-                    arr[j]= arr[j+1];
-                    arr[j+1]=temp;
+    public static void BubbleSort( String str[]){
+        for( int turn = 0; turn<str.length-1;turn++){
+            for( int j=0;j<str.length-1-turn;j++){
+                if( str[j].toLowerCase().charAt(0)> str[j+1].toLowerCase().charAt(0)){
+                 String temp = str[j];
+                   str[j]=str[j+1];
+                    str[j+1]=temp;
                 }
             }
         }
     }
 
-    public static void Arrprint( int arr[]){
+    public static void Arrprint( String str[]){
 
-        for( int i=0;i<arr.length;i++){
-            System.out.print( arr[i]+" ");
+        for( int i=0;i<str.length;i++){
+            System.out.print(str[i].toLowerCase().charAt(0)+" ");
         }
         System.out.println();
     }
@@ -28,9 +27,9 @@ public class Sorting {
 
     public static void main( String args[]){
 
-        int arr[]= {9,5,2,1,7,3};
-      BubbleSort ( arr);
-        Arrprint(arr);
+      String str[]= {"A","F","E"};
+      BubbleSort ( str);
+        Arrprint(str);
     }
     
 }
